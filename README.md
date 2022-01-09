@@ -17,5 +17,21 @@ The two images above show the difference in return for 12 energy stocks in the y
 
 #### Code Comparison and Execution Time
 
+![This is an image](https://github.com/belennlopezvega/stock-analysis/blob/main/Refactored%20Code.png)
+
+The image above shows a snippet of the refactored code used in the analysis. The code shows a minimal risk for mistakes to happen or be missed if the data were to switch as everything is streamlined and variables and indexes are created to eliminate the use of magic numbers. This new code proved to be more efficient compared to the original code as the below picture shows. 
+
+![This is an image](https://github.com/belennlopezvega/stock-analysis/blob/main/Original%20Code%20Timer%202017%20and%202018.png)
+
+These two timer screenshots above were taken using the original code before it was refactored and made more efficient. Although both ran fast in retrospect, there is still a clear distinction in which code ran faster.
+
 
 ## Summary
+
+When it comes to refactoring code, the advantages profoundly outweight the disadvantages. Although it may take longer to assign variables and indexes, it would save time in case of changes which are likely to happen. Even if no further changes are made, that code can then be used and recycled to solve a different question, or run a different analysis. Overall, it leaves very little room for mistakes and magic numbers, and can be beneficial for future use. 
+
+
+
+
+
+
