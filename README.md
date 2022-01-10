@@ -23,12 +23,12 @@ The image above shows a snippet of the refactored code used in the analysis. The
 
 ![This is an image](https://github.com/belennlopezvega/stock-analysis/blob/main/Original%20Code%20Timer%202017%20and%202018.png)
 
-These two timer screenshots above were taken using the original code before it was refactored and made more efficient. Although both ran fast in retrospect, there is still a clear distinction in which code ran faster.
+These two timer screenshots above were taken using the original code, before it was refactored and made more efficient. Although both ran fast in retrospect, there is still a clear distinction in which code ran faster. With the changes that were made in refactoring the code, not only does it work better but it's easy to understand and will can be used and recycled in the future. 
 
 
 ## Summary
 
-When it comes to refactoring code, the advantages profoundly outweight the disadvantages. Although it may take longer to assign variables and indexes, it would save time in case of changes which are likely to happen. Even if no further changes are made, that code can then be used and recycled to solve a different question, or run a different analysis. Overall, it leaves very little room for mistakes and magic numbers, and can be beneficial for future use. 
+When it comes to refactoring code, the advantages profoundly outweight the disadvantages. Although it may take longer to assign variables and indexes, it would save time in case of changes which are likely to happen. Even if no further changes are made, that code can then be used and recycled to solve a different question, or run a different analysis. Assigning variables also makes the code easier to read if someone else were to look over the code which cuts down the chances of there being confusion. When refactoring the original VBA script, it did mean spending more time on going over the code and replacing certain lines of code with news one. Overall, it leaves very little room for mistakes and magic numbers, and can be beneficial for future use. 
 
 
 
